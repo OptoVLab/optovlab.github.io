@@ -43,9 +43,9 @@
   .title{margin:0;font-weight:700;letter-spacing:-.3px;line-height:1.12;font-size:clamp(27px,2.6vw,42px);background:linear-gradient(96deg,#fff 0%,#e2e8ff 46%,var(--opto) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
   .lead{margin:0;font-size:16px;line-height:1.52;color:var(--muted)}
   .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:2px 0}.metric{padding:10px 11px;border:1px solid var(--border);border-radius:11px;background:rgba(14,20,34,.72)}.metric b{display:block;font:700 20px/1.05 'JetBrains Mono',monospace;color:#f5f7ff}.metric span{display:block;margin-top:5px;font-size:10.5px;line-height:1.2;color:var(--dim);text-transform:uppercase;letter-spacing:.65px}
-  .authors{margin:0;font-size:14px;line-height:1.62;color:var(--text)}.authors sup{color:var(--opto);font-weight:700}.authors .corr{color:var(--gold)}
+  .authors{margin:0;font-size:14px;line-height:1.62;color:var(--text)}.authors sup{color:var(--opto);font-weight:700}
   .affils{margin:0;font-size:12px;line-height:1.55;color:var(--dim)}.affils .n{color:var(--opto);font-family:'JetBrains Mono',monospace;font-weight:700}
-  .corresp{margin:-4px 0 0;font-size:11.5px;color:var(--dim)}.corresp a{color:var(--opto);text-decoration:none}.corresp a:hover{text-decoration:underline}
+  .contribution{margin:-4px 0 0;font-size:11.5px;color:var(--dim)}
   .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:2px}.btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:14px;color:var(--text);padding:9px 15px;border-radius:11px;border:1px solid var(--border2);background:linear-gradient(180deg,#141b2e,#0e1322);transition:.2s}.btn svg{width:16px;height:16px}.btn:hover{border-color:var(--opto);box-shadow:0 0 16px rgba(124,140,248,.3);transform:translateY(-1px)}.btn.primary{color:#0b1020;border-color:transparent;background:linear-gradient(180deg,#93a0ff,var(--opto));box-shadow:0 6px 20px rgba(124,140,248,.42)}
   .foot{position:relative;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:13px 34px;border-top:1px solid var(--border);background:rgba(10,14,26,.42);backdrop-filter:blur(6px)}
   .collab{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.collab-label{font:500 10.5px/1 'JetBrains Mono',monospace;letter-spacing:1.3px;text-transform:uppercase;color:var(--dim)}.inst{padding:7px 12px;border:1px solid var(--border);border-radius:9px;color:var(--muted);font-size:12px;font-weight:600;background:rgba(18,24,41,.58)}.copy{font-size:12px;color:var(--dim)}
@@ -76,9 +76,9 @@
         <div class="metric"><b>R² 0.81</b><span>OLED-GAT test score</span></div>
         <div class="metric"><b>18.6→26.5%</b><span>experimental EQE</span></div>
       </div>
-      <p class="authors">Qian Zhang<sup>1,†</sup>, Yongxu Hu<sup>1,†</sup>, Zhiyao Su<sup>1</sup>, Jingsheng Miao<sup>2</sup>, Xiaoyu Guo<sup>2</sup>, Nengquan Li<sup>2</sup>, Chuluo Yang<sup>2</sup>, Yajing Sun<sup class="corr">1,*</sup>, Wenping Hu<sup class="corr">1,*</sup></p>
+      <p class="authors">Qian Zhang<sup>1,†</sup>, Yongxu Hu<sup>1,†</sup>, Zhiyao Su<sup>1</sup>, Jingsheng Miao<sup>2</sup>, Xiaoyu Guo<sup>2</sup>, Nengquan Li<sup>2</sup>, Chuluo Yang<sup>2</sup>, Yajing Sun<sup>1</sup></p>
       <p class="affils"><span class="n">1</span> Tianjin University · Key Laboratory of Organic Integrated Circuits &amp; Tianjin Key Laboratory of Molecular Optoelectronic Sciences<br><span class="n">2</span> Shenzhen University · Shenzhen Key Laboratory of New Information Display and Storage Materials</p>
-      <p class="corresp">† Equal contribution · * Correspondence: <a href="mailto:syj19@tju.edu.cn">syj19@tju.edu.cn</a> · <a href="mailto:huwp@tju.edu.cn">huwp@tju.edu.cn</a></p>
+      <p class="contribution">† Equal contribution</p>
       <div class="actions">
         <a class="btn primary" href="demo/index.html"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m7 5 12 7-12 7Z"/></svg>Launch Demo</a>
         <a class="btn" href="demo/imgs/optovlab_architecture.png"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="11" cy="18" r="2"/><path d="m8 7 8 1m-9 0 3 8m2-1 5-5"/></svg>System Overview</a>

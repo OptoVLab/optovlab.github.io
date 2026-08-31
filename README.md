@@ -46,5 +46,4 @@ manuscript results; schematic mini-curves are labeled directly in the demo.
 ## Research Team
 
 OptoVLab is developed by researchers at Tianjin University and Shenzhen
-University. Please use the corresponding-author contacts shown on the website
-for research inquiries.
+University.
